@@ -2,7 +2,7 @@
 #Genetic Algorithm to determine contents of a String
 
 GENES <- ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~'
-TARGET <- "porn"
+TARGET <- "this string was algoritmically determined"
 population_size = 20 #ensure that the population size is dividable evenly by the survivor size
 survivor_size = 10
 target_length = nchar(TARGET)
